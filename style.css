@@ -1,0 +1,59 @@
+nav{
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+    background-color: yellow;
+    font-size: 30px;
+    height: 50px; 
+}
+
+.container{
+    width: 500px;
+    padding: 20px;
+    box-shadow: 1px 1px 5px 1px gray;
+    border-radius: 10px;    
+    position: relative;
+    top: 20px;   
+    margin :  auto;
+}
+
+.container input{
+    width: 80%;
+    padding:12px;
+    height: 15px;
+    border: none;
+    outline: none   ;
+    background-color: rgb(247, 229, 229);
+    font-size: 20px;
+    border-radius: 8px;
+
+
+}
+
+.searchbar button{
+    width:60px;
+    
+}
+
+.text a{
+    background-color: orange;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 8px;
+    position: relative;
+    padding: 6px 20px;
+    top: 16px;
+
+}
+.text span{
+    color: gray;
+}
+
+@media screen and (max-width: 600px){
+    .container{
+        width: 80%;
+    }
+}
+
+
